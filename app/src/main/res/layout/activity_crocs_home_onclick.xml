@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#BA989898"
+    android:layout_height="match_parent"
+    tools:context=".crocs_home_onclick">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <include layout="@layout/activity_onclickcomponents"/>
+    <ViewFlipper
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:autoStart="true"
+        android:overScrollMode="always"
+        android:flipInterval="3000"
+        android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right"
+        android:layout_height="300dp">
+        <ImageView
+            android:src="@drawable/crocs1"
+            android:layout_width="400dp"
+            android:layout_height="300dp" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:src="@drawable/crocs2"
+            />
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:src="@drawable/crocs3"
+            />
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:src="@drawable/crocs4"
+            />
+
+    </ViewFlipper>
+
+    <TextView
+        android:layout_marginTop="350dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/black"
+        android:text=" crocs Unisex-Adult Baya Clog Clog"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="#79101010"
+        android:text=" ‣ Size: 8 UK Men/ 9 UK Women (M9W11)"
+        />
+            <TextView
+                android:layout_width="263dp"
+                android:layout_height="111dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="420dp"
+                android:background="@drawable/order_background"
+                android:textColor="#707070"
+                android:text="○ choose your size:" />
+    <com.google.android.material.chip.ChipGroup
+        android:layout_width="wrap_content"
+android:background="@drawable/order_background"
+        app:singleSelection="true"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="90dp"
+        android:layout_height="wrap_content">
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 9 "
+       app:chipIcon="@drawable/baseline_check_24"
+            style="@style/Widget.MaterialComponents.Chip.Filter"
+                app:chipSurfaceColor="#3F51B5"
+            android:textColor="@color/white"/>
+         <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             app:chipIcon="@drawable/baseline_check_24"
+            style="@style/Widget.MaterialComponents.Chip.Filter"
+             app:chipSurfaceColor="#3F51B5"
+            android:textColor="@color/white"
+            android:text="10 "/>
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11"
+            app:chipSurfaceColor="#3F51B5"
+            android:textColor="@color/white"
+            app:chipIcon="@drawable/baseline_check_24"
+            style="@style/Widget.MaterialComponents.Chip.Filter"/>
+    </com.google.android.material.chip.ChipGroup>
+
+</RelativeLayout>
+</androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

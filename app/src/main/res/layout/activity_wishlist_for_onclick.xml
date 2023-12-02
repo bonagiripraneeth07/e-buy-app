@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".wishlist_for_onclick">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/toviewrwishlist"/>
+
+    <ImageView
+        android:layout_width="279dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/loginnow" />
+
+    <ImageView
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="130dp"
+        android:layout_height="68dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="345dp"
+        android:src="@drawable/loginnowbutton" />
+
+
+
+</RelativeLayout>

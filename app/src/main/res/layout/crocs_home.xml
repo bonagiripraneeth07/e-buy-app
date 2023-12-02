@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/layout_crocs"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ViewFlipper
+android:layout_marginLeft="10dp"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:autoStart="true"
+        android:overScrollMode="always"
+        android:flipInterval="3000"
+        android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right"
+        android:layout_height="300dp">
+        <ImageView
+android:src="@drawable/crocs1"
+            android:layout_width="400dp"
+            android:layout_height="300dp" />
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:src="@drawable/crocs2"
+            />
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:src="@drawable/crocs3"
+            />
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:src="@drawable/crocs4"
+            />
+
+    </ViewFlipper>
+
+    <TextView
+        android:layout_marginTop="350dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text=" crocs Unisex-Adult Baya Clog Clog"
+        android:textSize="20dp"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="390dp"
+    android:text="Size: 8 UK Men/ 9 UK Women (M9W11)"
+    />
+<com.google.android.material.chip.ChipGroup
+    android:layout_width="wrap_content"
+    app:singleSelection="true"
+    android:layout_marginTop="420dp"
+    android:layout_marginLeft="90dp"
+    android:layout_height="wrap_content">
+    <com.google.android.material.chip.Chip
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 9 "
+        app:chipBackgroundColor="#ED0404"
+         android:textColor="@color/white"
+        style="@style/Widget.MaterialComponents.Chip.Filter"/>
+     <com.google.android.material.chip.Chip
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         style="@style/Widget.MaterialComponents.Chip.Filter"
+        app:chipBackgroundColor="#ED0404"
+         android:textColor="@color/white"
+        android:text="10 "/>
+
+    <com.google.android.material.chip.Chip
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11"
+        app:chipBackgroundColor="#ED0404"
+        android:textColor="@color/white"
+        style="@style/Widget.MaterialComponents.Chip.Filter"/>
+</com.google.android.material.chip.ChipGroup>
+</RelativeLayout>

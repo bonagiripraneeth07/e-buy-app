@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_explorepage">
+
+    <!-- TODO: Update blank fragment layout -->
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="-30dp"
+        android:src="@drawable/heading_explore" />
+    <VideoView
+
+        android:layout_marginTop="60dp"
+        android:id="@+id/videoview"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        />
+    <ImageView
+        android:id="@+id/nike_main_explore"
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:layout_marginTop="-50dp"
+        android:layout_below="@+id/videoview"
+        android:src="@drawable/nike_explore_main" />
+
+    <ImageView
+        android:layout_below="@+id/nike_main_explore"
+        android:id="@+id/explore_men"
+        android:layout_width="match_parent"
+        android:layout_height="242dp"
+        android:layout_marginTop="-40dp"
+        android:src="@drawable/mens"/>
+
+
+
+    <ImageView
+        android:layout_below="@+id/nike_main_explore"
+        android:id="@+id/womensfashion_explore"
+        android:layout_marginTop="190dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/women" />
+
+    <ImageView
+        android:layout_width="match_parent"
+android:layout_marginTop="20dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/womensfashion_explore"
+        android:src="@drawable/kids_explore" />
+
+    <ImageView
+        android:id="@+id/airpods_explore"
+        android:layout_below="@+id/womensfashion_explore"
+        android:layout_marginTop="160dp"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/airpods_explore"/>
+    <ImageView
+        android:id="@+id/appleipad_explore"
+        android:layout_marginTop="450dp"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_below="@+id/womensfashion_explore"
+        android:src="@drawable/appleipad_explore" />
+    <VideoView
+android:layout_below="@+id/appleipad_explore"
+        android:layout_marginTop="-30dp"
+        android:id="@+id/videoview2"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        />
+
+    <ImageView
+        android:id="@+id/motoimg"
+        android:layout_below="@+id/videoview2"
+        android:layout_marginTop="-129dp"
+        android:layout_width="wrap_content"
+        android:layout_height="900dp"
+        android:src="@drawable/moto" />
+</RelativeLayout>
+</androidx.core.widget.NestedScrollView>

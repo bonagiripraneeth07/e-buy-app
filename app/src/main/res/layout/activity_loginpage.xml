@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".loginpage">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-48dp"
+        android:src="@drawable/rectangle_a" />
+
+    <ImageView
+        android:id="@+id/login_a"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/login_a" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="55dp"
+        android:src="@drawable/user" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/come" />
+
+    <ImageView
+        android:layout_width="233dp"
+        android:layout_height="276dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="110dp"
+        android:src="@drawable/logo" />
+
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="18dp"
+        android:src="@drawable/email_bar" />
+    <EditText
+        android:textColorHint="@color/white"
+        android:id="@+id/email"
+        android:paddingLeft="70dp"
+        android:hint="E-mail/Phonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="38dp"
+        android:ems="15"/>
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="358dp"
+       android:layout_marginLeft="23dp"
+       android:src="@drawable/usericon" />
+   <ImageView
+
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="420dp"
+       android:layout_marginLeft="18dp"
+       android:src="@drawable/email_bar" />
+
+   <EditText
+       android:id="@+id/password"
+       android:layout_width="wrap_content"
+       android:layout_height="48dp"
+       android:layout_below="@+id/email"
+       android:layout_marginLeft="38dp"
+       android:layout_marginTop="23dp"
+       android:ems="15"
+       android:hint="Password"
+       android:inputType="textPassword"
+       android:paddingLeft="120dp"
+       android:textColorHint="@color/white" />
+
+   <ImageView
+       android:layout_width="24dp"
+       android:layout_height="25dp"
+       android:layout_marginTop="428dp"
+       android:layout_marginLeft="23dp"
+       android:src="@drawable/lock" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/loginrectangle" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/password"
+        android:layout_marginLeft="157dp"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/loginfinal" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-25dp"
+        android:src="@drawable/rectangleb" />
+
+    <ImageView
+        android:layout_width="79dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="21dp"
+        android:src="@drawable/skiprec" />
+
+    <ImageView
+        android:id="@+id/skip"
+        android:layout_width="wrap_content"
+        android:layout_height="22dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="29dp"
+        android:src="@drawable/skip" />
+
+</RelativeLayout>

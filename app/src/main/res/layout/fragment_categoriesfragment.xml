@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="#fff"
+    tools:context=".categoriesfragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/categoriesheading"
+            android:layout_width="1090dp"
+            android:layout_height="75dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-6dp"
+            android:layout_marginEnd="-56dp"
+            android:src="@drawable/categories_heading" />
+
+        <GridLayout
+             android:layout_below="@+id/categoriesheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2">
+        <ImageView
+            android:id="@+id/cate"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/electronics"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="9dp"
+                android:src="@drawable/fashion"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="200dp"
+                android:src="@drawable/fooditems"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="9dp"
+                android:src="@drawable/grocery"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_marginLeft="5dp"
+                android:layout_height="200dp"
+                android:src="@drawable/homeapplliences"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="9dp"
+                android:src="@drawable/personalcare"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/sports"/>
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_marginLeft="9dp"
+                android:layout_height="200dp"
+                android:src="@drawable/toys"/>
+
+
+
+    </GridLayout>
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

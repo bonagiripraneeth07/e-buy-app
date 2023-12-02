@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context=".homepagefragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           >
+    <ViewFlipper
+        android:id="@+id/imageslider"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+
+        android:autoStart="true"
+        android:overScrollMode="always"
+        android:flipInterval="2000"
+        android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right"
+        >
+
+        <ImageView
+            android:id="@+id/imga"
+            android:layout_width="match_parent"
+            android:layout_height="201dp"
+            android:src="@drawable/frame_a" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/frame2" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/frame3" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/farme4"/>
+
+    </ViewFlipper>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/imageslider"
+        android:layout_marginTop="-100dp"
+        android:src="@drawable/smoothdelivery" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageslider"
+                android:layout_marginTop="-23dp"
+                android:src="@drawable/fashionheading" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageslider"
+
+                android:layout_marginTop="46dp"
+                android:src="@drawable/topbrandsheading" />
+
+             <GridLayout
+                 android:id="@+id/gridlayout1"
+                 android:layout_width="400dp"
+                 android:layout_height="wrap_content"
+                 android:layout_below="@+id/imageslider"
+                 android:layout_marginTop="112dp"
+                 android:columnCount="2">
+
+                 <ImageView
+                     android:id="@+id/imgmg"
+                     android:layout_width="200dp"
+                     android:layout_height="200dp"
+
+                     android:layout_marginBottom="10dp"
+                     android:src="@drawable/img1" />
+
+                 <ImageView
+                     android:layout_width="200dp"
+                     android:layout_height="200dp"
+                     android:src="@drawable/img2"/>
+                 <ImageView
+                     android:layout_width="200dp"
+                     android:layout_height="200dp"
+                     android:layout_marginBottom="10dp"
+
+                     android:src="@drawable/img3"/>
+                 <ImageView
+                     android:layout_width="200dp"
+                     android:layout_height="200dp"
+                     android:src="@drawable/img4"/>
+                 <ImageView
+                     android:layout_width="200dp"
+                     android:layout_marginBottom="10dp"
+                     android:layout_height="200dp"
+                     android:src="@drawable/img5"/>
+                 <ImageView
+                 android:layout_width="200dp"
+                 android:layout_height="200dp"
+                 android:src="@drawable/img6"/>
+
+             </GridLayout>
+            <RelativeLayout
+                android:layout_below="@+id/gridlayout1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/laptopsheading"/>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/gridlayout1"
+                android:id="@+id/gridlayout2"
+                android:layout_marginTop="53dp"
+                android:background="#D9D9D9"
+                android:columnCount="2">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+
+                    android:src="@drawable/electronics1" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/electronics2" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/electronics3" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/electronics4" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/electronics5" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/electronics6" />
+            </GridLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+
+    android:layout_below="@+id/gridlayout2"
+     android:background="@drawable/mobilesheading"/>
+
+            <GridLayout
+                android:id="@+id/gridlayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:columnCount="2"
+                android:layout_below="@+id/gridlayout2"
+                android:layout_marginTop="51dp">
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/mobile1" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+
+                    android:src="@drawable/mobile2" />
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="-10dp"
+                    android:src="@drawable/mobile3" />
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="-10dp"
+                    android:src="@drawable/mobile4" />
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="-10dp"
+                    android:src="@drawable/mobile5" />
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="-10dp"
+                    android:src="@drawable/mobile6" />
+
+            </GridLayout>
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_below="@id/gridlayout3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="213dp"
+                android:layout_marginTop="-41dp"
+                android:layout_marginEnd="-20dp"
+                android:src="@drawable/nikeshoe" />
+            <ImageView
+                android:layout_width="260dp"
+                android:layout_height="300dp"
+                android:src="@drawable/nikeshoe_intro"
+                android:layout_below="@id/gridlayout3"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="-7dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nikeshoe2"
+                android:layout_below="@id/gridlayout3"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="-61dp"/>
+
+        </RelativeLayout>
+             </androidx.core.widget.NestedScrollView>
+
+         </RelativeLayout>
