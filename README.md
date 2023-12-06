@@ -1,0 +1,21 @@
+# e-buy-app
+![1](https://github.com/bonagiripraneeth07/e-buy-app/assets/149886367/45c92e05-3a6f-4bd2-a099-431f5d2fd17d)
+![homepage](https://github.com/bonagiripraneeth07/e-buy-app/assets/149886367/b8857929-6196-45fc-a250-74fb771c6f5f)
+![notification1](https://github.com/bonagiripraneeth07/e-buy-app/assets/149886367/16634c95-d8a9-44e3-a011-85acfe76cee2)
+![3](https://github.com/bonagiripraneeth07/e-buy-app/assets/149886367/3c9901f4-a713-47cd-8027-8c9fb66dd381)
+![2](https://github.com/bonagiripraneeth07/e-buy-app/assets/149886367/bfdf1285-a60b-4dd0-9c88-d1fd5faf42be)
+![3 (2)](https://github.com/bonagiripraneeth07/e-buy-app/assets/149886367/d23303b6-2ec7-402e-9cd1-794e17a31fcb)
+![14](https://github.com/bonagiripraneeth07/e-buy-app/assets/149886367/7b32f10b-f1ae-412f-ae38-9f34431ec275)
+![explore](https://github.com/bonagiripraneeth07/e-buy-app/assets/149886367/09d73b9f-c34b-451a-a43e-c2ea159813e6)
+![8](https://github.com/bonagiripraneeth07/e-buy-app/ass
+![10](https://github.com/bonagiripraneeth07/e-buy-app/assets/149886367/a0df15ad-b7aa-458e-9c91-3928c3a4d60a)
+ets/149886367/6bec153d-c1ae-4a9b-903d-b89734b01371)
+![cart](https://github.com/bonagiripraneeth07/e-buy-app/assets/149886367/bd39b049-6b09-4c8f-ad11-37aa978b9df3)
+
+![drawer](https://github.com/bonagiripraneeth07/e-buy-app/assets/149886367/d4b4a0df-1781-49ff-8b1a-096441b9f5af)
+![account](https://github.com/bonagiripraneeth07/e-buy-app/assets/149886367/1dd3a88b-3360-4a02-ba11-6b606790c0cc)
+![about](https://github.com/bonagiripraneeth07/e-buy-app/assets/149886367/75bea9f1-e936-47a0-83fc-f4286fb10e8c)
+![share](https://github.com/bonagiripraneeth07/e-buy-app/assets/149886367/60118fc2-a055-4f25-b605-db67e293649e)
+![share through whatsapp](https://github.com/bonagiripraneeth07/e-buy-app/assets/149886367/a3bf6688-6e69-4506-8277-72527eebdde9)
+![opening github](https://github.com/bonagiripraneeth07/e-buy-app/assets/149886367/b96fa9c6-f356-4bb7-a98c-570ed69c8e63)
+![notification2](https://github.com/bonagiripraneeth07/e-buy-app/assets/149886367/420a0ef8-b4be-4705-bc9f-e85cb554990c)
